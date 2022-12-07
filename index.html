@@ -1,21 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+  <link rel="stylesheet" href="css.css">
 </head>
-<body>
-    <h1> Hola, soy una calculadora</h1>
-    <script src="./Calculadora.js"></script>
-</body>
-<footer>
+<body onload="init ()">
+<div class="container">
+    <table class="calculadora">
     
-</footer>
+        <tr>
+            <td colspan="4"><div id="resultado"></div></td>
+        </tr>
+       
+        <div class="container text-center">
+            <div class="row">
+                <tr>
+                    <div class="col"><td><button id="siete">7</button></td></div>
+                    <div class="col"><td><button id="ocho">8</button></td></div>
+                    <div class="col"><td><button id="nueve">9</button></td></div>
+                    <div class="col"><td><button id="division">/</button></td></div>
+                </tr>
+            </div>
+            <div class="row">
+                <tr>
+                    <div class="col"><td><button id="cuatro">4</button></td></div>
+                    <div class="col"><td><button id="cinco">5</button></td></div>
+                    <div class="col"><td><button id="seis">6</button></td></div>
+                    <div class="col"><td><button id="multiplicacion">*</button></td></div>
+                </tr>
+            </div>
+            <div class="row">
+                <tr>
+                    <div class="col"><td><button id="uno">1</button></td></div>
+                    <div class="col"><td><button id="dos">2</button></td></div>
+                    <div class="col"><td><button id="tres">3</button></td></div>
+                    <div class="col"><td><button id="resta">-</button></td></div>
+                </tr>
+            </div>
+            <div class="row">
+                <tr>
+                    <div class="col"><td><button id="igual">=</button></td></div>
+                    <div class="col"><td><button id="cero">0</button></td></div>
+                    <div class="col"><td><button id="reset">C</button></td></div>
+                    <div class="col"><td><button id="suma">+</button></td></div>
+                </tr>
+            </div>
+
+
+    </table>
+</div>
+<script src="CalculadoraCompleta.js"></script>
+    
+</body> 
 </html>
-
-
-
 
 

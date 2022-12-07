@@ -1,0 +1,30 @@
+#resultado{
+    margin: 5%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(125, 231, 245);
+    font-size: larger;
+    font-weight: 900;
+    width: 90%;
+    border-radius: 0%;
+    text-align: center;
+}
+button{
+    margin: 5%;
+    height: 1.5cm;
+    width: 1.5cm;
+    background-color: black;
+    color: chartreuse;
+    border-radius: 30%;
+    font-size: larger;
+    font-weight: 900;
+}
+button:hover{
+    border-color: aqua;
+    background-color: #333;
+}
+.container {
+background-color: #777;
+max-height: 700px;
+max-width: 250px;
+border-radius: 5%;
+}
